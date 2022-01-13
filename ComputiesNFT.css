@@ -603,15 +603,15 @@
 }
 
 .u-section-6 .u-image-1 {
-  width: 344px;
-  height: 377px;
+  width: 480px;
+  height: 392px;
   margin: 59px auto 0;
 }
 
 .u-section-6 .u-text-2 {
   font-weight: 700;
   font-size: 3.75rem;
-  margin: 69px auto 13px;
+  margin: 54px auto 13px;
 }
 
 @media (max-width: 1199px) {
@@ -652,7 +652,7 @@
 
   .u-section-6 .u-image-1 {
     width: 340px;
-    height: 373px;
+    height: 278px;
   }
 
   .u-section-6 .u-text-2 {
