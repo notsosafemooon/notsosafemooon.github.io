@@ -603,15 +603,15 @@
 }
 
 .u-section-6 .u-image-1 {
-  width: 438px;
-  height: 357px;
-  margin: 69px auto 0;
+  width: 344px;
+  height: 377px;
+  margin: 59px auto 0;
 }
 
 .u-section-6 .u-text-2 {
   font-weight: 700;
   font-size: 3.75rem;
-  margin: 79px auto 13px;
+  margin: 69px auto 13px;
 }
 
 @media (max-width: 1199px) {
@@ -623,15 +623,25 @@
 
   .u-section-6 .u-text-2 {
     width: auto;
-    margin-top: 495px;
+    margin-top: 921px;
     margin-bottom: 37px;
     margin-left: 13px;
   }
 }
 
+@media (max-width: 767px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 713px;
+  }
+
+  .u-section-6 .u-text-2 {
+    margin: 0 0 13px;
+  }
+}
+
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 593px;
+    min-height: 548px;
   }
 
   .u-section-6 .u-text-1 {
@@ -642,12 +652,13 @@
 
   .u-section-6 .u-image-1 {
     width: 340px;
-    height: 277px;
+    height: 373px;
   }
 
   .u-section-6 .u-text-2 {
     font-size: 1.5rem;
-    margin: 378px 0 0;
+    margin-top: -7px;
+    margin-bottom: 21px;
   }
 }.u-section-7 .u-sheet-1 {
   min-height: 888px;
@@ -903,17 +914,32 @@
 }
 
 @media (max-width: 767px) {
+  .u-section-7 .u-sheet-1 {
+    min-height: 1316px;
+  }
+
+  .u-section-7 .u-line-1 {
+    margin-top: 14px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
   .u-section-7 .u-image-1 {
-    margin-top: 147px;
+    margin-top: 0;
+    margin-left: auto;
   }
 
   .u-section-7 .u-text-1 {
-    margin-top: 20px;
+    width: 157px;
+    margin-top: -118px;
+    margin-left: auto;
     margin-right: auto;
   }
 
   .u-section-7 .u-accordion-1 {
-    margin-right: 70px;
+    margin-top: 52px;
+    margin-right: auto;
   }
 
   .u-section-7 .u-container-layout-1 {
@@ -947,12 +973,13 @@
   }
 
   .u-section-7 .u-icon-7 {
-    margin-left: 150px;
+    margin-top: 61px;
+    margin-left: 149px;
   }
 
   .u-section-7 .u-icon-8 {
-    margin-right: 144px;
-    margin-bottom: 14px;
+    margin-right: 159px;
+    margin-bottom: 40px;
   }
 }
 
@@ -973,7 +1000,6 @@
     width: 340px;
     margin-top: -843px;
     margin-right: -105px;
-    margin-left: auto;
   }
 
   .u-section-7 .u-text-1 {
